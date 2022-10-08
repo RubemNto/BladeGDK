@@ -1,3 +1,4 @@
+#include "core/camera.hpp"
 #include "core/core.hpp"
 using namespace BladeGDK;
 
@@ -7,6 +8,7 @@ public:
 
 private:
   Core core;
+  Camera camera;
   void start();
   void update();
 };

@@ -3,7 +3,7 @@ LDFLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 all:
 	chmod +X core/shaders/compile.sh
 	bash core/shaders/compile.sh
-	g++ $(CFLAGS) -o VulkanTest.exe *.cpp $(LDFLAGS) 
+	g++ $(CFLAGS) -o VulkanTest.exe core/*.cpp *.cpp $(LDFLAGS) 
 	./VulkanTest.exe
 	rm -r VulkanTest.exe
 	rm -r vert.spv
