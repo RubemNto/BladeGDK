@@ -1,3 +1,5 @@
+// Core Functions for the Back-End of the BLADE Game Development Kit
+
 #pragma once
 #include "coreComponents.hpp"
 
