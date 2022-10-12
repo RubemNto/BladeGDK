@@ -9,7 +9,8 @@ void main() {
 
   outColor = texture(texSampler, fragTexCoord);
   // test the fragment color strenght
-  if (outColor.w == 0) {
-    outColor = vec4(1, 0, 1, 0);
+  if (outColor.w <= 0) {
+    // discard transparent background fragment
+    discard;
   }
 }
