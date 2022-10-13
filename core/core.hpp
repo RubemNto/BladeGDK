@@ -108,7 +108,7 @@ public:
 
   void setWindowSize(uint32_t width, uint32_t height);
 
-  void mainLoop(Camera camera);
+  void mainLoop(Camera *camera);
 
 private:
   void initWindow();
@@ -214,11 +214,11 @@ private:
   void createSyncObjects();
 
   void updateUniformBuffer(uint32_t currentImage, float aspectRatio,
-                           Camera camera);
+                           Camera *camera);
 
   void recordElementsCommandBuffer(uint32_t imageIndex);
 
-  void drawFrame(Camera camera);
+  void drawFrame(Camera *camera);
 
   void cleanup();
 };

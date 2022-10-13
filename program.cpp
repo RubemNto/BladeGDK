@@ -6,11 +6,10 @@ void Program::run() {
 }
 
 void Program::start() {
-  camera = Camera(
-      glm::vec3(0, 0, 0),
+  camera = new Camera(
       glm::lookAt(glm::vec3(2.0f, 2.0f, 2.0f), glm::vec3(0.0f, 0.0f, 0.0f),
                   glm::vec3(0.0f, 0.0f, 1.0f)),
-      glm::perspective(glm::radians(60.0f), (800 / 600.0f), 0.1f, 10.0f));
+      glm::perspective(glm::radians(60.0f), (800 / 600.0f), 0.1f, 1000.0f));
 
   core._vertices = {
       {{-0.5f, -0.5f, 0.0f}, {1.0f, 0.0f, 0.0f}, {0.0f, 0.0f}},
@@ -33,4 +32,26 @@ void Program::start() {
   core.initBlade();
 }
 
-void Program::update() { core.mainLoop(camera); }
+void key_callback(GLFWwindow *window, int key, int scancode, int action,
+                  int mods) {
+  if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
+    glfwSetWindowShouldClose(window, GLFW_TRUE);
+  }
+
+  if (key == GLFW_KEY_LEFT && action == GLFW_PRESS) {
+    camera->_direction = glm::vec3(-1, 0, 0);
+  } else if (key == GLFW_KEY_RIGHT && action == GLFW_PRESS) {
+    camera->_direction = glm::vec3(1, 0, 0);
+  } else if (key == GLFW_KEY_UP && action == GLFW_PRESS) {
+    camera->_direction = glm::vec3(0, 1, 0);
+  } else if (key == GLFW_KEY_DOWN && action == GLFW_PRESS) {
+    camera->_direction = glm::vec3(0, -1, 0);
+  } else {
+    camera->_direction = glm::vec3(0, 0, 0);
+  }
+}
+
+void Program::update() {
+  glfwSetKeyCallback(_window, key_callback);
+  core.mainLoop(camera);
+}

@@ -5,19 +5,17 @@
 namespace BladeGDK {
 class Camera {
 private:
-  glm::vec3 _position;
   glm::mat4 _view;
   glm::mat4 _projection;
 
 public:
+  glm::vec3 _direction = glm::vec3(0);
+
   Camera() {}
-  Camera(glm::vec3 position, glm::mat4 view, glm::mat4 projection) {
-    _position = position;
+  Camera(glm::mat4 view, glm::mat4 projection) {
     _view = view;
     _projection = projection;
   }
-
-  glm::vec3 Position() { return _position; }
   glm::mat4 View() { return _view; }
   glm::mat4 Projection() { return _projection; }
 };

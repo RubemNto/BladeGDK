@@ -319,7 +319,7 @@ void Core::setWindowSize(uint32_t width, uint32_t height) {
   WINDOW_HEIGHT = height;
 }
 
-void Core::mainLoop(Camera camera) {
+void Core::mainLoop(Camera *camera) {
   while (!glfwWindowShouldClose(_window)) {
     drawFrame(camera);
     glfwPollEvents();
@@ -1451,7 +1451,7 @@ void Core::createSyncObjects() {
 }
 
 void Core::updateUniformBuffer(uint32_t currentImage, float aspectRatio,
-                               Camera camera) {
+                               Camera *camera) {
   static auto startTime = std::chrono::high_resolution_clock::now();
 
   auto currentTime = std::chrono::high_resolution_clock::now();
@@ -1459,10 +1459,13 @@ void Core::updateUniformBuffer(uint32_t currentImage, float aspectRatio,
                    currentTime - startTime)
                    .count();
   UniformBufferObject ubo{};
-  ubo.model = glm::rotate(glm::mat4(1.0f), time * glm::radians(90.0f),
-                          glm::vec3(0.0f, 0.0f, 1.0f));
-  ubo.view = camera.View();
-  ubo.proj = camera.Projection();
+  ubo.model = glm::mat4(1);
+
+  std::cout << camera->_direction.x << camera->_direction.y
+            << camera->_direction.z << std::endl;
+
+  ubo.view = glm::translate(camera->View(), camera->_direction);
+  ubo.proj = camera->Projection();
   ubo.proj[1][1] *= -1;
   void *data;
   vkMapMemory(_device, _uniformBuffersMemory[currentImage], 0, sizeof(ubo), 0,
@@ -1529,10 +1532,10 @@ void Core::recordElementsCommandBuffer(uint32_t imageIndex) {
     throw std::runtime_error("failed to record command buffer!");
   }
 
-  std::cout << "Recorded Command Buffer" << std::endl;
+  // std::cout << "Recorded Command Buffer" << std::endl;
 }
 
-void Core::drawFrame(Camera camera) {
+void Core::drawFrame(Camera *camera) {
   vkWaitForFences(_device, 1, &inFlightFences[_currentFrame], VK_TRUE,
                   UINT64_MAX);
   vkResetFences(_device, 1, &inFlightFences[_currentFrame]);

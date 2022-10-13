@@ -2,13 +2,14 @@
 #include "core/core.hpp"
 using namespace BladeGDK;
 
+static Camera *camera;
+
 class Program {
 public:
   void run();
 
 private:
   Core core;
-  Camera camera;
   void start();
   void update();
 };
