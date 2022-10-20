@@ -6,7 +6,6 @@ void Program::run() {
 }
 
 void Program::start() {
-
   core._vertices = {
       {{-0.5f, -0.5f, 0.0f}, {1.0f, 0.0f, 0.0f}, {0.0f, 0.0f}},
       {{0.5f, -0.5f, 0.0f}, {0.0f, 1.0f, 0.0f}, {1.0f, 0.0f}},
@@ -27,10 +26,16 @@ void Program::start() {
   core._indices = {0, 1, 2, 2, 3, 0, 4, 5, 6, 6, 7, 4, 8, 9, 10, 10, 11, 8};
   core.initBlade();
 
-  camera = new Camera(glm::vec3(0.0f, 0.0f, 2.0f), glm::vec3(0.0f, 0.0f, 0.0f),
-                      glm::vec3(0, -1, 0), glm::radians(60.0f),
+  // 3D camera
+  camera = new Camera(glm::vec3(0.0f, 0.0f, 1.0f), glm::vec3(0.0f, 0.0f, 0.0f),
+                      glm::vec3(0, 1, 0), glm::radians(60.0f),
                       _swapChainExtent.width / (float)_swapChainExtent.height,
                       0.1f, 1000.0f);
+
+  // 2D Camera
+  //  camera = new Camera(glm::vec2(0, 0), 0.0f, 0.0f, _swapChainExtent.width,
+  //  0.0f,
+  //                      _swapChainExtent.height, 0.0f, 100.0f);
 }
 
 void key_callback(GLFWwindow *window, int key, int scancode, int action,
@@ -40,11 +45,11 @@ void key_callback(GLFWwindow *window, int key, int scancode, int action,
   }
 
   if (key == GLFW_KEY_LEFT && action == GLFW_PRESS) {
-    camera->setCameraPosition(camera->getCameraPosition() + glm::vec3(1, 0, 0));
-  }
-  if (key == GLFW_KEY_RIGHT && action == GLFW_PRESS) {
     camera->setCameraPosition(camera->getCameraPosition() +
                               glm::vec3(-1, 0, 0));
+  }
+  if (key == GLFW_KEY_RIGHT && action == GLFW_PRESS) {
+    camera->setCameraPosition(camera->getCameraPosition() + glm::vec3(1, 0, 0));
   }
 }
 

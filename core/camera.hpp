@@ -21,8 +21,13 @@ private:
   float _aspect;
   float _near;
   float _far;
+  glm::vec3 _up;
 
   /*2D Camera Data*/
+  float _left;
+  float _right;
+  float _bottom;
+  float _top;
 
 public:
   glm::vec3 getCameraPosition();
@@ -38,7 +43,13 @@ public:
   // 3D constructor Camera
   Camera(glm::vec3 position, glm::vec3 orientation, glm::vec3 up, float fov,
          float aspect, float near, float far);
+
+  // 2D constructor Camera
+  Camera(glm::vec2 position, float rotation, float left, float right,
+         float bottom, float top, float near, float far);
+
   glm::mat4 View();
+
   glm::mat4 Projection();
 };
 } // namespace BladeGDK

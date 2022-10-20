@@ -825,7 +825,10 @@ void Core::createGraphicsPipeline() {
   rasterizer.polygonMode = VK_POLYGON_MODE_FILL;
   rasterizer.lineWidth = 1.0f;
   rasterizer.cullMode = VK_CULL_MODE_BACK_BIT;
-  rasterizer.frontFace = VK_FRONT_FACE_COUNTER_CLOCKWISE;
+
+  // CHANGE
+  rasterizer.frontFace = VK_FRONT_FACE_CLOCKWISE;
+
   rasterizer.depthBiasEnable = VK_FALSE;
 
   VkPipelineMultisampleStateCreateInfo multisampling{};
@@ -1462,7 +1465,7 @@ void Core::updateUniformBuffer(uint32_t currentImage, float aspectRatio,
   ubo.model = glm::mat4(1);
   ubo.view = camera->View();
   ubo.proj = camera->Projection();
-  ubo.proj[1][1] *= -1;
+  // ubo.proj[1][1] *= -1;
   void *data;
   vkMapMemory(_device, _uniformBuffersMemory[currentImage], 0, sizeof(ubo), 0,
               &data);
