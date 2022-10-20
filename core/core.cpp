@@ -1460,11 +1460,7 @@ void Core::updateUniformBuffer(uint32_t currentImage, float aspectRatio,
                    .count();
   UniformBufferObject ubo{};
   ubo.model = glm::mat4(1);
-
-  std::cout << camera->_direction.x << camera->_direction.y
-            << camera->_direction.z << std::endl;
-
-  ubo.view = glm::translate(camera->View(), camera->_direction);
+  ubo.view = camera->View();
   ubo.proj = camera->Projection();
   ubo.proj[1][1] *= -1;
   void *data;
