@@ -826,7 +826,6 @@ void Core::createGraphicsPipeline() {
   rasterizer.lineWidth = 1.0f;
   rasterizer.cullMode = VK_CULL_MODE_BACK_BIT;
 
-  // CHANGE
   rasterizer.frontFace = VK_FRONT_FACE_CLOCKWISE;
 
   rasterizer.depthBiasEnable = VK_FALSE;
@@ -1455,17 +1454,20 @@ void Core::createSyncObjects() {
 
 void Core::updateUniformBuffer(uint32_t currentImage, float aspectRatio,
                                Camera *camera) {
+
   static auto startTime = std::chrono::high_resolution_clock::now();
 
   auto currentTime = std::chrono::high_resolution_clock::now();
   float time = std::chrono::duration<float, std::chrono::seconds::period>(
                    currentTime - startTime)
                    .count();
+
   UniformBufferObject ubo{};
+  ubo.cameraPosition = camera->getCameraPosition();
   ubo.model = glm::mat4(1);
   ubo.view = camera->View();
   ubo.proj = camera->Projection();
-  // ubo.proj[1][1] *= -1;
+
   void *data;
   vkMapMemory(_device, _uniformBuffersMemory[currentImage], 0, sizeof(ubo), 0,
               &data);
