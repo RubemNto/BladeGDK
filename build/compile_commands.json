@@ -1,0 +1,462 @@
+[
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build",
+  "command": "/usr/bin/g++  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glm -I/home/dev_rubs/projects/BladeGDK/lib/stb_image -g -std=gnu++17 -o CMakeFiles/BladeGDK.exe.dir/main.cpp.o -c /home/dev_rubs/projects/BladeGDK/main.cpp",
+  "file": "/home/dev_rubs/projects/BladeGDK/main.cpp"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build",
+  "command": "/usr/bin/g++  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glm -I/home/dev_rubs/projects/BladeGDK/lib/stb_image -g -std=gnu++17 -o CMakeFiles/BladeGDK.exe.dir/program.cpp.o -c /home/dev_rubs/projects/BladeGDK/program.cpp",
+  "file": "/home/dev_rubs/projects/BladeGDK/program.cpp"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build",
+  "command": "/usr/bin/g++  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glm -I/home/dev_rubs/projects/BladeGDK/lib/stb_image -g -std=gnu++17 -o CMakeFiles/BladeGDK.exe.dir/core/coreComponents.cpp.o -c /home/dev_rubs/projects/BladeGDK/core/coreComponents.cpp",
+  "file": "/home/dev_rubs/projects/BladeGDK/core/coreComponents.cpp"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build",
+  "command": "/usr/bin/g++  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glm -I/home/dev_rubs/projects/BladeGDK/lib/stb_image -g -std=gnu++17 -o CMakeFiles/BladeGDK.exe.dir/core/core.cpp.o -c /home/dev_rubs/projects/BladeGDK/core/core.cpp",
+  "file": "/home/dev_rubs/projects/BladeGDK/core/core.cpp"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build",
+  "command": "/usr/bin/g++  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glm -I/home/dev_rubs/projects/BladeGDK/lib/stb_image -g -std=gnu++17 -o CMakeFiles/BladeGDK.exe.dir/core/camera.cpp.o -c /home/dev_rubs/projects/BladeGDK/core/camera.cpp",
+  "file": "/home/dev_rubs/projects/BladeGDK/core/camera.cpp"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/context.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/context.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/init.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/init.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/input.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/input.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/monitor.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/monitor.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/vulkan.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/vulkan.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/window.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/window.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/x11_init.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/x11_init.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/x11_monitor.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/x11_monitor.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/x11_window.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/x11_window.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/xkb_unicode.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/posix_time.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/posix_time.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/posix_thread.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/posix_thread.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/glx_context.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/glx_context.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/egl_context.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/egl_context.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/osmesa_context.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/osmesa_context.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src -I/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/linux_joystick.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/src/linux_joystick.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/boing.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/boing.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/gears.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/gears.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/heightmap.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/heightmap.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/sharing.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/sharing.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/particles.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/particles.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/tinycthread.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/tinycthread.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/simple.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/simple.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/splitview.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/splitview.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/offscreen.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/offscreen.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/wave.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/examples/wave.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/examples",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/triangle-vulkan.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/triangle-vulkan.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_vulkan.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_vulkan.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/tearing.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/tearing.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/title.dir/title.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/title.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/title.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/opacity.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/opacity.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/clipboard.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/clipboard.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/msaa.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/msaa.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/glfwinfo.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/glfwinfo.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_vulkan.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_vulkan.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/iconify.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/iconify.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/reopen.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/reopen.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/gamma.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/gamma.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/monitors.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/monitors.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/windows.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/windows.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/timeout.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/timeout.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/inputlag.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/inputlag.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/threads.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/threads.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/tinycthread.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/tinycthread.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/cursor.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/cursor.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/empty.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/empty.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/tinycthread.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/tinycthread.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/icon.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/icon.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/events.dir/events.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/events.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/events.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/getopt.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/joysticks.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/tests/joysticks.c"
+},
+{
+  "directory": "/home/dev_rubs/projects/BladeGDK/build/lib/glfw-3.3.8/tests",
+  "command": "/usr/bin/gcc  -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps -I/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/include -g -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o -c /home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c",
+  "file": "/home/dev_rubs/projects/BladeGDK/lib/glfw-3.3.8/deps/glad_gl.c"
+}
+]

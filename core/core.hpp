@@ -150,8 +150,11 @@ private:
   void createRenderPass();
 
   void createDescriptorSetLayout();
+  std::vector<char> readFile(const std::string &filename);
 
   VkShaderModule createShaderModule(const std::vector<char> &code);
+  // VkShaderModule createShaderModule(const std::vector<unsigned int> &code);
+  // VkShaderModule createShaderModule(const std::string &code);
 
   void createGraphicsPipeline();
 

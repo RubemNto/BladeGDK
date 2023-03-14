@@ -1,6 +1,6 @@
 {
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
-        "limits": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -21,9 +21,7 @@
         "cwchar": "cpp",
         "cwctype": "cpp",
         "deque": "cpp",
-        "map": "cpp",
         "set": "cpp",
-        "string": "cpp",
         "unordered_map": "cpp",
         "vector": "cpp",
         "exception": "cpp",
@@ -36,6 +34,7 @@
         "optional": "cpp",
         "random": "cpp",
         "ratio": "cpp",
+        "string": "cpp",
         "string_view": "cpp",
         "system_error": "cpp",
         "tuple": "cpp",
@@ -43,16 +42,21 @@
         "utility": "cpp",
         "fstream": "cpp",
         "initializer_list": "cpp",
+        "iomanip": "cpp",
         "iosfwd": "cpp",
         "iostream": "cpp",
         "istream": "cpp",
+        "limits": "cpp",
         "new": "cpp",
-        "numbers": "cpp",
         "ostream": "cpp",
+        "ranges": "cpp",
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "cinttypes": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "unordered_set": "cpp"
     }
 }
